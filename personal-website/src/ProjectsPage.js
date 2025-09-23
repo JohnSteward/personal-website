@@ -15,7 +15,7 @@ function ProjectsPage() {
                         Hedgehog 2, but in the future, it could be adjusted for other games, or have more features included,
                     such as a face or eye tracker, to allow the user to control their computer." 
                     githubLink="//github.com/JohnSteward/HandTracker"/>
-                <Project title="Python Turn-Based RPG" image="../images/LaniFront.jpg" readme="A Level Project" githubLink="//github.com/JohnSteward/ALevelProject" />
+                <Project title="Python Turn-Based RPG" image="/images/LaniFront.png" readme="A Level Project" githubLink="//github.com/JohnSteward/ALevelProject" />
             </div>
             <div className='project-row'>
                 <Project title="row tester" image="/images/LaniFront.png" readme="hellooooooo" />
