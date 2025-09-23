@@ -1,0 +1,19 @@
+.projects{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+}
+.project-container{
+    width: 100%;
+    align-items: center;
+}
+.project-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
