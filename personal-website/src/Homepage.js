@@ -19,7 +19,7 @@ function Homepage() {
       </div>
 
       <div className='home-content'>
-        <img src='/images/PFP.png' className='pfp'></img>
+        <img src='/images/HomepageImages/PFP.png' className='pfp'></img>
         <div className='profile'>
             <h2 className='home-sub-title'>About Me</h2>
             <p className='home-description'>
