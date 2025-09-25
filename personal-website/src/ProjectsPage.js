@@ -7,7 +7,7 @@ function ProjectsPage() {
         
         <div className='project-container'>
             <div className='project-row'>
-                <Project title="Hand Tracker" image="/images/LaniFront.png" readme="For my Master’s dissertation, I built a hand tracker
+                <Project title="Hand Tracker" image="/images/FullPipeline.png" readme="For my Master’s dissertation, I built a hand tracker
                     using MediaPipe Hands, with the purpose of allowing people with movement conditions to 
                     play video games. The tracker would ignore small movements and exclusively register large, 
                     jerky motions to allow for the imprecise movements of people that have Parkinson’s Disease. 
