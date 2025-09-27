@@ -2,7 +2,7 @@ import {React, useReducer, useEffect, useState} from 'react'
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import './Project.css'
 
-function Project({title, image, readme, githubLink, pdf, pdfLink}) {
+function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className='project'>
@@ -18,9 +18,9 @@ function Project({title, image, readme, githubLink, pdf, pdfLink}) {
         <button className='show-more' onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? 'Collapse Description' : 'Show Description'}</button>
           
-        <button className='github'>
+        {github && <button className='github'>
           <Link className='link' to={{ pathname: githubLink }} target="_blank"> GitHub Page</Link>
-        </button>
+        </button>}
         {pdf && <button className='view-report'>
           <a href={pdfLink} target='_blank' rel='noreferrer' className='report-link'>View Report</a>
         </button>}
