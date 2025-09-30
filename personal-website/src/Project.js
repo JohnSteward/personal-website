@@ -1,5 +1,5 @@
-import {React, useReducer, useEffect, useState} from 'react'
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {React, useState} from 'react'
+import {Link} from 'react-router'
 import './Project.css'
 
 function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
@@ -10,13 +10,13 @@ function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
         <h1 className='project-name'>{title}</h1>
 
         <img src={image} className='image' alt=''/>
-
-        {isOpen && <p className='readme'>
-          {readme}
-        </p>}
+          {isOpen && <p className='readme'>
+            {readme}
+          </p>}
+        
 
         <button className='show-more' onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? 'Collapse Description' : 'Show Description'}</button>
+          {isOpen ? 'Hide Description' : 'Show Description'}</button>
           
         {github && <button className='github'>
           <Link className='link' to={{ pathname: githubLink }} target="_blank"> GitHub Page</Link>

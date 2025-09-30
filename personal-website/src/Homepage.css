@@ -30,7 +30,7 @@
     padding-right: 10px;
     border-radius: 15px;
     text-decoration: none;
-    color: purple;
+    color: yellowgreen;
     background: black;
 }
 .pfp{
@@ -41,4 +41,26 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+.work-images{
+    display: block;
+}
+.work-pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.drs-img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    max-height: 300px;
+}
+.ihawk-img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    max-height: 250px;
 }

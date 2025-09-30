@@ -10,6 +10,9 @@ function Homepage() {
         <h2 className='home-sub-title'>Important Links</h2>
         <Link className='other-page-links' to={{ pathname: "//www.linkedin.com/in/john-steward-494487244/" }} target="_blank"> LinkedIn</Link>
         <Link className='other-page-links' to={{pathname: "//github.com/JohnSteward"}} target='blank'>GitHub</Link>
+        <br></br>
+        <br></br>
+        <a href="/CV/John-Steward-CV.pdf" target='_blank' rel='noreferrer' className='other-page-links'>View CV</a>
       </div>
 
       <div className='contact-details'>
@@ -19,7 +22,7 @@ function Homepage() {
       </div>
 
       <div className='home-content'>
-        <img src='/images/HomepageImages/PFP.png' className='pfp'></img>
+        <img src='/images/HomepageImages/PFP.png' className='pfp'alt='' />
         <div className='profile'>
             <h2 className='home-sub-title'>About Me</h2>
             <p className='home-description'>
@@ -41,12 +44,23 @@ function Homepage() {
                         Spent my time travelling around the world, tracking live games including The Hundred, 
                         Indian domestic T20, Big Bash League, and India vs England Test Series. Travelled around the UK, 
                         India, and Australia. I worked in various teams rigging, testing, and running our systems, 
-                        making decisions under the high pressure of live top level games.
+                        making decisions under the high pressure of live top level games. Since the role involved so much travelling,
+                        we all took advantage of being in a new country and explored as much as we could while not working, like
+                        participating in the Triund Trek in the Himalayas, shown in one of the pictures below.
                     </p>
                     <div className='work-images'>
-                        {/* INCLUDE IMAGES OF TRAVELS AND WORK*/}
+                      <div className='work-pics'>
+                        <img src='/images/WorkImages/DRS/Theo.png' className='drs-img' alt=''/>
+                        <img src='/images/WorkImages/DRS/Stump.png' className='drs-img' alt=''/>
+                        <img src='/images/WorkImages/DRS/tracking.png' className='drs-img' alt=''/>
+                      </div>
+                      <div className='work-pics'>
+                        
+                        <img src='/images/WorkImages/DRS/Triund.png' className='drs-img' alt=''/>
+                        <img src='/images/WorkImages/DRS/Dharam.png' className='drs-img' alt=''/>
+                        <img src='/images/WorkImages/DRS/Ground.png' className='drs-img' alt=''/>
+                      </div>
                     </div>
-                    
                 </div>
                 <div className='ihawk'>
                     <h4 className='ihawk-title'>Remote Support - iHawk</h4>
@@ -58,6 +72,11 @@ function Homepage() {
                     </p>
                     <div className='work-images'>
                         {/* INCLUDE IMAGES OF IHAWK STUFF IF I CAN FIND IT*/}
+                        <div className='work-pics'>
+                        <img src='/images/WorkImages/ihawk/setup.png' className='ihawk-img' alt=''/>
+                        <img src='/images/WorkImages/ihawk/umpire.png' className='ihawk-img' alt=''/>
+                        <img src='/images/WorkImages/ihawk/tracking.png' className='ihawk-img' alt=''/>
+                      </div>
                     </div>
                     
                 </div>

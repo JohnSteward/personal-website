@@ -5,6 +5,22 @@
     align-items: center;
     width: 100%;
 }
+.hyperlinks{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hyperlink{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 15px;
+    color: purple;
+}
 .project-title{
     align-items: center;
     color: brown;

@@ -1,6 +1,7 @@
 import React from 'react'
 import './HobbiesPage.css'
 import { Link } from 'react-router'
+import Dish from './Dish'
 
 function HobbiesPage() {
   return (
@@ -9,9 +10,17 @@ function HobbiesPage() {
       <p className='hobbies-description'>
         The hobbies shown on this page are the ones that I am most interested in at this time, and are some of
         my favourite passtimes.
-        {/* MAKE HYPERLINKS FOR EACH HOBBY */}
       </p>
-      <a href='#tkd'>Go to TKD</a>
+      {/* Hyperlinks */}
+      <button className='hobby-hyper' 
+        onClick={() => document.getElementById('tkd')?.scrollIntoView({behavior: 'smooth'})}>Go to TKD</button>
+      <button className='hobby-hyper' 
+        onClick={() => document.getElementById('3d-model')?.scrollIntoView({behavior: 'smooth'})}>Go to 3D Modelling</button>
+      <button className='hobby-hyper' 
+        onClick={() => document.getElementById('pc')?.scrollIntoView({behavior: 'smooth'})}>Go to PC Building</button>
+      <button className='hobby-hyper' 
+        onClick={() => document.getElementById('cooking')?.scrollIntoView({behavior: 'smooth'})}>Go to Cooking</button>
+
       <div className='tkd' id='tkd'>
         <h1 className='hobbies-title'>Taekwondo</h1>
         <p className='hobbies-description'>
@@ -27,20 +36,20 @@ function HobbiesPage() {
         </p>
         <div className='tkd-pics'>
           <div className='pic-row'>
-            <img src='/images/TKD/Meal.png' className='tkd-image' />
-            <img src='/images/TKD/Blues.png' className='tkd-image' />
-            <img src='/images/TKD/KB.png' className='tkd-image' />
+            <img src='/images/TKD/Meal.png' className='hobby-image' alt=''/>
+            <img src='/images/TKD/Blues.png' className='hobby-image' alt=''/>
+            <img src='/images/TKD/KB.png' className='hobby-image' alt=''/>
           </div>
 
           <div className='pic-row'>
-            <img src='/images/TKD/Romania.png' className='tkd-image' />
-            <img src='/images/TKD/Poland.png' className='tkd-image' />
+            <img src='/images/TKD/Romania.png' className='hobby-image' alt=''/>
+            <img src='/images/TKD/Poland.png' className='hobby-image' alt=''/>
           </div>
 
           <div className='pic-row'>
-            <img src='/images/TKD/Norwich.png' className='tkd-image' />
-            <img src='/images/TKD/GTI.png' className='tkd-image' />
-            <img src='/images/TKD/Teams.png' className='tkd-image' />
+            <img src='/images/TKD/Norwich.png' className='hobby-image' alt=''/>
+            <img src='/images/TKD/GTI.png' className='hobby-image' alt=''/>
+            <img src='/images/TKD/Teams.png' className='hobby-image' alt=''/>
           </div>
 
         </div>
@@ -60,23 +69,60 @@ function HobbiesPage() {
          MakerWorld
         </Link>
         <h2 className='blender-title'>Blender Models</h2>
-        <div className='pic-row'>
-          <img src='/images/3DModels/Stebe.png' className='model-image' />
-          <img src='/images/3DModels/Shadow.png' className='model-image' />
-          <img src='/images/3DModels/Lemon.png' className='model-image' />
-          <img src='/images/3DModels/Tank.png' className='model-image' />
-          <img src='/images/3DModels/Magolor.png' className='model-image' />
+        <div className='models'>
+          <div className='pic-row'>
+            <img src='/images/3DModels/Stebe.png' className='hobby-image' alt=''/>
+            <img src='/images/3DModels/Shadow.png' className='hobby-image' alt=''/>
+            <img src='/images/3DModels/Lemon.png' className='hobby-image' alt=''/>
+            <img src='/images/3DModels/Tank.png' className='hobby-image' alt=''/>
+            <img src='/images/3DModels/Magolor.png' className='hobby-image' alt=''/>
+          </div>
+          <h2 className='clay-title'>Clay Models</h2>
+          <div className='pic-row'>
+            <img src='/images/3DModels/Spyro.png' className='hobby-image' alt=''/>
+          </div>
         </div>
-        <h2 className='clay-title'>Clay Models</h2>
+        
       </div>
-
-      <div className='cooking'>
-        <h1 className='hobbies-title' id='cooking'>Cooking</h1>
+      <div className='pc-building' id='pc'>
+        <h1 className='hobbies-title'>PC Building</h1>
+        <p className='hobbies-description'>
+          I like PCs innit
+        </p>
+        <h2 className='hobby-subtitle'>My PC Setup</h2>
+        <div className='pic-row'>
+          <img src="/images/PC/my-setup.png" className='hobby-image' alt='' />
+          <img src="/images/PC/my-pc.png" className='hobby-image' alt='' />
+        </div>
+      </div>
+      <div className='cooking' id='cooking'>
+        <h1 className='hobbies-title'>Cooking</h1>
         <p className='hobbies-description'>
             I started to really enjoy cooking during my final year of university, getting a carbon-steel wok for my 
             birthday. I started to experiment more with dishes and add new flavours to meals that I had made in the 
             past.
         </p>
+        <div className='dishes'>
+          <div className='pic-row'>
+            <Dish title="Honey and Garlic Pork Belly" image="/images/Cooking/honey-pork.png" prep=" Set your portion of rice to cook.
+              While it cooks, Cut pork belly into cubes. Season with salt, pepper, ginger and Chinese 5-spice. Finely chop 3 cloves of garlic.
+              Prepare whatever veg you want with the dish. For the sauce, combine light soy sauce and honey to taste."
+              method="Set a wok or large pan to high heat then add a high smoke point oil. Put the pork into the pan and sear on all
+              sides, making sure all of the pieces are touching the pan. Once it has all seared, mix in your garlic and cook for
+              around a minute. Then, add all of your veg and mix well before adding your sauce. Make sure all of the pork and veg
+              is coated well in the sauce, allowing it to reduce into a sticky coating before serving over your rice." />
+
+            <Dish title="Egg Fried Rice" image="/images/Cooking/fried-rice.png" prep="This works best with day-old rice, since it
+              will be dry. Beat an egg into a bowl and season with salt and pepper. Chop all veg and meat that you want with it
+              (This is very much a leftovers recipe). For the sauce, mix around 2 tbsp of soy sauce and 1 tbsp of oyster sauce, depending
+              on portion size."
+              method="Put a wok or pan on the hob on a high heat, then add a high smoke-point  oil. Cook all the meat until it is
+              fully cooked (or heated if you are using leftovers), then put aside. Add more oil if the pan is dry, then lightly
+              scramble the egg and put aside. Add your rice until it is mostly separated, then add the meat, egg and veg into the pan.
+              Mix well and make sure the veg is hot, then add your sauce and mix until it is all well coated. Serve and garnish how
+              you like (shown here I have topped it with Lao Gan Ma chilli crisp)." />
+          </div>
+        </div>
       </div>
       
     </div>
