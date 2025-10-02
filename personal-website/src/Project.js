@@ -4,7 +4,7 @@ import './Project.css'
 
 
 function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
   const [height, setHeight] = useState("0px");
   
   const Reveal = () => {
@@ -28,7 +28,7 @@ function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
           </p>
         </div>
         <button className='show-more' onClick={() => Reveal()}>
-          {isOpen ? 'Hide Description' : 'Show Description'}</button>
+          {isOpen ? 'Show Description' : 'Hide Description'}</button>
           
         {github && <button className='github'>
           <Link className='link' to={{ pathname: githubLink }} target="_blank"> GitHub Page</Link>

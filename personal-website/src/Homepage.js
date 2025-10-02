@@ -6,6 +6,12 @@ function Homepage() {
     <div className='home'>
       <h1 className='home-title'>Home Page</h1>
 
+      <div className='contact-details'>
+        <h2 className='home-sub-title'>Contact Details</h2>
+        <p className='contact'>Phone: +44 7555 781330</p>
+        <p className='contact'>Email Address: stewardjohn165@gmail.com</p>
+      </div>
+
       <div className='important-links'>
         <h2 className='home-sub-title'>Important Links</h2>
         <Link className='other-page-links' to={{ pathname: "//www.linkedin.com/in/john-steward-494487244/" }} target="_blank"> LinkedIn</Link>
@@ -13,12 +19,6 @@ function Homepage() {
         <br></br>
         <br></br>
         <a href="/CV/John-Steward-CV.pdf" target='_blank' rel='noreferrer' className='other-page-links'>View CV</a>
-      </div>
-
-      <div className='contact-details'>
-        <h2 className='home-sub-title'>Contact Details</h2>
-        <p className='contact'>Phone: +44 7555 781330</p>
-        <p className='contact'>Email Address: stewardjohn165@gmail.com</p>
       </div>
 
       <div className='home-content'>

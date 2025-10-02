@@ -1,0 +1,15 @@
+.copyright{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 55px;
+    color: grey;
+}
+/* .copyright-text{
+
+    margin-top: auto;
+    margin-bottom: auto;
+} */

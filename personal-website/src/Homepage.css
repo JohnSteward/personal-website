@@ -19,6 +19,7 @@
     display: block;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .other-page-links{
     font-family: Garamond, serif;

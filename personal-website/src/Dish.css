@@ -3,12 +3,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: rgb(0, 45, 0);
     border-radius: 10px;
     border-width: 5px;
     border-color: black;
     margin: 10px;
     height: max-content;
+    transition: background-color 1s;
+}
+.dish:hover{
+    background-color: green;
 }
 .dish-content{
     align-items: center;
