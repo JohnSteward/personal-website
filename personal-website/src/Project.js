@@ -10,11 +10,12 @@ function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
         <h1 className='project-name'>{title}</h1>
 
         <img src={image} className='image' alt=''/>
+        <div className='desc-container'>
           {isOpen && <p className='readme'>
             {readme}
           </p>}
+        </div>
         
-
         <button className='show-more' onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? 'Hide Description' : 'Show Description'}</button>
           

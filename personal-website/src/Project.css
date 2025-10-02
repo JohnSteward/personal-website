@@ -22,6 +22,9 @@
     max-height: 400px;
     max-width: 450px;
 }
+.desc-container{
+    transition: height 0.5s;
+}
 .readme{
     margin-left: 15px;
     margin-right: 15px;
