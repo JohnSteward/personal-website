@@ -2,21 +2,32 @@ import {React, useState} from 'react'
 import {Link} from 'react-router'
 import './Project.css'
 
+
 function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
+  const [height, setHeight] = useState("0px");
+  
+  const Reveal = () => {
+    setOpen(!isOpen);
+    if (isOpen){
+      setHeight("400px");
+    }else{
+      setHeight("0px");
+    }
+  }
+
   return (
     <div className='project'>
       <div className='content'>
         <h1 className='project-name'>{title}</h1>
 
         <img src={image} className='image' alt=''/>
-        <div className='desc-container'>
-          {isOpen && <p className='readme'>
+        <div className='desc-container' style={{maxHeight:height, overflow: 'hidden', transition: "0.4s"}}>
+          <p className='readme'>
             {readme}
-          </p>}
+          </p>
         </div>
-        
-        <button className='show-more' onClick={() => setIsOpen(!isOpen)}>
+        <button className='show-more' onClick={() => Reveal()}>
           {isOpen ? 'Hide Description' : 'Show Description'}</button>
           
         {github && <button className='github'>

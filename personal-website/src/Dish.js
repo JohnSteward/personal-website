@@ -2,24 +2,38 @@ import {React, useState} from 'react'
 import './Dish.css'
 
 function Dish({title, image, prep, method}) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setOpen] = useState(true);
+  const [height, setHeight] = useState("0px");
+
+  const Reveal = () => {
+    setOpen(!isOpen);
+    if (isOpen){
+      setHeight("650px");
+      
+    }else{
+      setHeight("0px");
+    }
+  }
+
   return (
     <div className='dish'>
       <div className='dish-content'>
         <h1 className='dish-name'>{title}</h1>
 
         <img src={image} className='dish-image' alt=''/>
-
-        {isOpen && <p className='prep'>
-          <h3>Prep:</h3>
-          {prep}
-        </p>}
-        {isOpen && <p className='method'>
-          <h3>Method:</h3>
-          {method}
-        </p>}
-        <button className='show-recipe' onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? 'Hide Recipe' : 'Show Recipe'}</button>
+        <div className='recipe' style={{maxHeight:height, overflow: 'hidden', transition: "0.4s"}}>
+          <p className='prep'>
+            <h3>Prep:</h3>
+            {prep}
+          </p>
+          <p className='method'>
+            <h3>Method:</h3>
+            {method}
+          </p>
+        </div>
+        
+        <button className='show-recipe' onClick={() => Reveal()}>
+          {isOpen ? 'Show Recipe' : 'Hide Recipe'}</button>
           
       </div>
     </div>
