@@ -22,7 +22,7 @@ function Homepage() {
       </div>
 
       <div className='home-content'>
-        <img src='/images/HomepageImages/PFP.png' className='pfp'alt='' />
+        <img src='/personal-website/images/HomepageImages/PFP.png' className='pfp'alt='' />
         <div className='profile'>
             <h2 className='home-sub-title'>About Me</h2>
             <p className='home-description'>
@@ -73,9 +73,9 @@ function Homepage() {
                     <div className='work-images'>
                         {/* INCLUDE IMAGES OF IHAWK STUFF IF I CAN FIND IT*/}
                         <div className='work-pics'>
-                        <img src='/personal-website/images/WorkImages/ihawk/setup.png' className='ihawk-img' alt=''/>
-                        <img src='/personal-website/images/WorkImages/ihawk/umpire.png' className='ihawk-img' alt=''/>
-                        <img src='/personal-website/images/WorkImages/ihawk/tracking.png' className='ihawk-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/iHawk/setup.png' className='ihawk-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/iHawk/umpire.png' className='ihawk-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/iHawk/tracking.png' className='ihawk-img' alt=''/>
                       </div>
                     </div>
                     
