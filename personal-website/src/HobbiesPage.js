@@ -36,20 +36,20 @@ function HobbiesPage() {
         </p>
         <div className='tkd-pics'>
           <div className='pic-row'>
-            <img src='/images/TKD/Meal.png' className='hobby-image' alt=''/>
-            <img src='/images/TKD/Blues.png' className='hobby-image' alt=''/>
-            <img src='/images/TKD/KB.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/Meal.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/Blues.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/KB.png' className='hobby-image' alt=''/>
           </div>
 
           <div className='pic-row'>
-            <img src='/images/TKD/Romania.png' className='hobby-image' alt=''/>
-            <img src='/images/TKD/Poland.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/Romania.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/Poland.png' className='hobby-image' alt=''/>
           </div>
 
           <div className='pic-row'>
-            <img src='/images/TKD/Norwich.png' className='hobby-image' alt=''/>
-            <img src='/images/TKD/GTI.png' className='hobby-image' alt=''/>
-            <img src='/images/TKD/Teams.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/Norwich.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/GTI.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/TKD/Teams.png' className='hobby-image' alt=''/>
           </div>
 
         </div>
@@ -71,15 +71,15 @@ function HobbiesPage() {
         <h2 className='hobby-subtitle'>Blender Models</h2>
         <div className='models'>
           <div className='pic-row'>
-            <img src='/images/3DModels/Stebe.png' className='hobby-image' alt=''/>
-            <img src='/images/3DModels/Shadow.png' className='hobby-image' alt=''/>
-            <img src='/images/3DModels/Lemon.png' className='hobby-image' alt=''/>
-            <img src='/images/3DModels/Tank.png' className='hobby-image' alt=''/>
-            <img src='/images/3DModels/Magolor.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/3DModels/Stebe.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/3DModels/Shadow.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/3DModels/Lemon.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/3DModels/Tank.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/3DModels/Magolor.png' className='hobby-image' alt=''/>
           </div>
           <h2 className='hobby-subtitle'>Clay Models</h2>
           <div className='pic-row'>
-            <img src='/images/3DModels/Spyro.png' className='hobby-image' alt=''/>
+            <img src='/personal-website/images/3DModels/Spyro.png' className='hobby-image' alt=''/>
           </div>
         </div>
         
@@ -102,14 +102,14 @@ function HobbiesPage() {
         </p>
         <h2 className='hobby-subtitle'>My PC Setup</h2>
         <div className='pic-row'>
-          <img src="/images/PC/my-setup.png" className='hobby-image' alt='' />
-          <img src="/images/PC/my-pc.png" className='hobby-image' alt='' />
+          <img src="/personal-website/images/PC/my-setup.png" className='hobby-image' alt='' />
+          <img src="/personal-website/images/PC/my-pc.png" className='hobby-image' alt='' />
         </div>
         <h2 className='hobby-subtitle'>Tom's Setup</h2>
         <div className='pic-row'>
-          <img src="/images/PC/tom-pc-top.png" className='hobby-image' alt='' />
-          <img src="/images/PC/tom-setup.png" className='hobby-image' alt='' />
-          <img src="/images/PC/tom-pc-side.png" className='hobby-image' alt='' />
+          <img src="/personal-website/images/PC/tom-pc-top.png" className='hobby-image' alt='' />
+          <img src="/personal-website/images/PC/tom-setup.png" className='hobby-image' alt='' />
+          <img src="/personal-website/images/PC/tom-pc-side.png" className='hobby-image' alt='' />
         </div>
       </div>
       <div className='cooking' id='cooking'>
@@ -122,7 +122,7 @@ function HobbiesPage() {
         </p>
         <div className='dishes'>
           <div className='pic-row'>
-            <Dish title="Honey and Garlic Pork Belly" image="/images/Cooking/honey-pork.png" prep=" Set your portion of rice to cook.
+            <Dish title="Honey and Garlic Pork Belly" image="/personal-website/images/Cooking/honey-pork.png" prep=" Set your portion of rice to cook.
               While it cooks, Cut pork belly into cubes. Season with salt, pepper, ginger and Chinese 5-spice. Finely chop 3 cloves of garlic.
               Prepare whatever veg you want with the dish. For the sauce, combine light soy sauce and honey to taste."
               method="Set a wok or large pan to high heat then add a high smoke point oil. Put the pork into the pan and sear on all
@@ -130,7 +130,7 @@ function HobbiesPage() {
               around a minute. Then, add all of your veg and mix well before adding your sauce. Make sure all of the pork and veg
               is coated well in the sauce, allowing it to reduce into a sticky coating before serving over your rice." />
 
-            <Dish title="Egg Fried Rice" image="/images/Cooking/fried-rice.png" prep="This works best with day-old rice, since it
+            <Dish title="Egg Fried Rice" image="/personal-website/images/Cooking/fried-rice.png" prep="This works best with day-old rice, since it
               will be dry. Beat an egg into a bowl and season with salt and pepper. Chop all veg and meat that you want with it
               (This is very much a leftovers recipe). For the sauce, mix around 2 tbsp of soy sauce and 1 tbsp of oyster sauce, depending
               on portion size."
@@ -139,7 +139,7 @@ function HobbiesPage() {
               scramble the egg and put aside. Add your rice until it is mostly separated, then add the meat, egg and veg into the pan.
               Mix well and make sure the veg is hot, then add your sauce and mix until it is all well coated. Serve and garnish how
               you like (shown here I have topped it with Lao Gan Ma chilli crisp)." />
-            <Dish title="Spaghetti Bolognese" image="/images/Cooking/bolognese.png" prep="For 4 portions: prepare 500g beef mince,
+            <Dish title="Spaghetti Bolognese" image="/personal-website/images/Cooking/bolognese.png" prep="For 4 portions: prepare 500g beef mince,
               dice one onion and 3 cloves of garlic, grate parmesan or cheddar for garnish at the end, prepare around 200ml red wine,
               one tin of chopped tomatoes, italian herb mix (or basil), and prepare any veg you want, as well as a stock cube."
               method="add olive oil to your pan, frying off the onion and garlic for a few minutes. Then add the mince and cook down
@@ -150,7 +150,7 @@ function HobbiesPage() {
               in your herbs to taste, and add a small amount of the pasta water to the sauce. Right at the end, you can add
               a small amount of milk to thicken the sauce a little bit more if you like. Drain the pasta and serve on a plate
               or bowl, add the bolognese on top and garnish generously with the cheese." />
-            <Dish title="Toad in the Hole" image="/images/Cooking/toad-in-the-hole.png" prep="2 Sausages per-person, Yorkshire pudding
+            <Dish title="Toad in the Hole" image="/personal-website/images/Cooking/toad-in-the-hole.png" prep="2 Sausages per-person, Yorkshire pudding
               for two: 70g flour, one egg, 100ml milk, pinch of salt. Onion gravy and veg for sides." 
               method="Make the Yorkshire Pudding batter by putting the flour and salt into a bowl, cracking the egg into it,
               and, using an electric whisk, beat it together while slowly adding in the milk. Preheat the oven to 200 degrees
