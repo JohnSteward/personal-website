@@ -11,9 +11,9 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/' element={<><Homepage /> <Footer colour="rgb(0, 122, 122)"/></>}></Route>
-          <Route path='/projects' element={<><ProjectsPage /> <Footer colour="rgb(153, 0, 0)"/></>}></Route>
-          <Route path='/hobbies' element={<><HobbiesPage /> <Footer colour="rgba(0, 107, 27, 1)"/></>}></Route>
+          <Route path='/' element={<><Homepage /> <Footer /></>}></Route>
+          <Route path='/projects' element={<><ProjectsPage /> <Footer /></>}></Route>
+          <Route path='/hobbies' element={<><HobbiesPage /> <Footer /></>}></Route>
         </Routes>
         
       </div>

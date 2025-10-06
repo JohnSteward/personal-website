@@ -3,16 +3,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(88, 0, 0);
+    background-color: #370617;
     border-radius: 10px;
     border-width: 5px;
-    border-color: black;
     margin: 10px;
     height: max-content;
-    transition: all 1s;
+    transition: all 0.5s;
+    border-color: #370617;
 }
 .project:hover{
-    background-color: red;
+    background-color: #d00000;
+}
+.project-name{
+    color:#ffba08;
 }
 
 .content{
@@ -35,10 +38,11 @@
     align-items: center;
     justify-content: center;
     display: block;
-    background: yellow;
+    background: #dc2f02;
     width: 30%;
     cursor: pointer;
     transition: all 1s;
+    border-color: #dc2f02;
 }
 
 .desc-container{
@@ -50,14 +54,17 @@
 .readme{
     margin-left: 15px;
     margin-right: 15px;
+    font-weight: 700;
+    color: #ffba08;
 }
 
 
 .github{
     width: 100px;
     height: 30px;
-    background: aqua;
+    background: #e85d04;
     margin-bottom: 5px;
+    border-color: #e85d04;
 }
 .link{
     color: black;
@@ -70,6 +77,8 @@
     margin-right: auto;
     margin-bottom: 5px;
     border-radius: 0;
+    background: #f48c06;
+    border-color: #f48c06;
 }
 .report-link{
     color: black;

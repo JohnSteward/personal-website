@@ -68,7 +68,7 @@ function HobbiesPage() {
         <Link className='makerworld-link' to={{ pathname:"//makerworld.com/en/@JohnSteward165/upload" }} target="_blank">
          MakerWorld
         </Link>
-        <h2 className='blender-title'>Blender Models</h2>
+        <h2 className='hobby-subtitle'>Blender Models</h2>
         <div className='models'>
           <div className='pic-row'>
             <img src='/images/3DModels/Stebe.png' className='hobby-image' alt=''/>
@@ -77,7 +77,7 @@ function HobbiesPage() {
             <img src='/images/3DModels/Tank.png' className='hobby-image' alt=''/>
             <img src='/images/3DModels/Magolor.png' className='hobby-image' alt=''/>
           </div>
-          <h2 className='clay-title'>Clay Models</h2>
+          <h2 className='hobby-subtitle'>Clay Models</h2>
           <div className='pic-row'>
             <img src='/images/3DModels/Spyro.png' className='hobby-image' alt=''/>
           </div>
@@ -150,6 +150,13 @@ function HobbiesPage() {
               in your herbs to taste, and add a small amount of the pasta water to the sauce. Right at the end, you can add
               a small amount of milk to thicken the sauce a little bit more if you like. Drain the pasta and serve on a plate
               or bowl, add the bolognese on top and garnish generously with the cheese." />
+            <Dish title="Toad in the Hole" image="/images/Cooking/toad-in-the-hole.png" prep="2 Sausages per-person, Yorkshire pudding
+              for two: 70g flour, one egg, 100ml milk, pinch of salt. Onion gravy and veg for sides." 
+              method="Make the Yorkshire Pudding batter by putting the flour and salt into a bowl, cracking the egg into it,
+              and, using an electric whisk, beat it together while slowly adding in the milk. Preheat the oven to 200 degrees
+              on a fan oven (220 for electric oven), lightly grease a tin with oil and place the sausages in, cooking them for 10
+              minutes. Take the sausages out, pour the batter into the tin, and put back in the oven for another 20-25 minutes.
+              Once fully cooked, serve with gravy and veg." />
           </div>
         </div>
       </div>

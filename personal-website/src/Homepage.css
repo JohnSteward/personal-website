@@ -1,19 +1,22 @@
 .home{
+    padding: 1px;
     display: block;
     align-items: center;
     justify-content: center;
+    background-color: #6a040f;
 }
 .home-title{
-    color: aqua;
+    color: #03071e;
     font-size: 40px;
 }
 .home-sub-title{
-    font-size: 30px;
+    font-size: 35px;
+    color: #03071e;
 }
 .contact{
     font-family: Garamond, serif;
     font-size: 20px;
-    color: maroon;
+    color: #ffba08;
 }
 .important-links{
     display: block;
@@ -31,7 +34,7 @@
     padding-right: 10px;
     border-radius: 15px;
     text-decoration: none;
-    color: yellowgreen;
+    color: #ffba08;
     background: black;
 }
 .pfp{
@@ -42,9 +45,24 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    color: #03071e;
+    font-weight: 700;
+    font-size: 18px;
+}
+.work-title{
+    color: #03071e;
+    font-size: 30px;
 }
 .work-images{
     display: block;
+}
+.drs-title{
+    color: #03071e;
+    font-size: 25px;
+}
+.ihawk-title{
+    color: #03071e;
+    font-size: 25px;
 }
 .work-pics{
     display: flex;
