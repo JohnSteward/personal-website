@@ -11,9 +11,9 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path='/personal-website' component={Homepage}></Route>
-          <Route exact path='/personal-website/projects' component={ProjectsPage}></Route>
-          <Route exact path='/personal-website/hobbies' component={HobbiesPage}></Route>
+          <Route exact path='/' element={<Homepage />}></Route>
+          <Route path='/projects' element={<ProjectsPage />}></Route>
+          <Route path='/hobbies' element={<HobbiesPage />}></Route>
         </Routes>
         <Footer />
       </div>
