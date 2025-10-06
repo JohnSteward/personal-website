@@ -18,7 +18,7 @@ function Homepage() {
         <Link className='other-page-links' to={{pathname: "//github.com/JohnSteward"}} target='blank'>GitHub</Link>
         <br></br>
         <br></br>
-        <a href="/CV/John-Steward-CV.pdf" target='_blank' rel='noreferrer' className='other-page-links'>View CV</a>
+        <a href="/personal-website/CV/John-Steward-CV.pdf" target='_blank' rel='noreferrer' className='other-page-links'>View CV</a>
       </div>
 
       <div className='home-content'>
@@ -50,15 +50,15 @@ function Homepage() {
                     </p>
                     <div className='work-images'>
                       <div className='work-pics'>
-                        <img src='/images/WorkImages/DRS/Theo.png' className='drs-img' alt=''/>
-                        <img src='/images/WorkImages/DRS/Stump.png' className='drs-img' alt=''/>
-                        <img src='/images/WorkImages/DRS/tracking.png' className='drs-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/DRS/Theo.png' className='drs-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/DRS/Stump.png' className='drs-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/DRS/tracking.png' className='drs-img' alt=''/>
                       </div>
                       <div className='work-pics'>
                         
-                        <img src='/images/WorkImages/DRS/Triund.png' className='drs-img' alt=''/>
-                        <img src='/images/WorkImages/DRS/Dharam.png' className='drs-img' alt=''/>
-                        <img src='/images/WorkImages/DRS/Ground.png' className='drs-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/DRS/Triund.png' className='drs-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/DRS/Dharam.png' className='drs-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/DRS/Ground.png' className='drs-img' alt=''/>
                       </div>
                     </div>
                 </div>
@@ -73,9 +73,9 @@ function Homepage() {
                     <div className='work-images'>
                         {/* INCLUDE IMAGES OF IHAWK STUFF IF I CAN FIND IT*/}
                         <div className='work-pics'>
-                        <img src='/images/WorkImages/ihawk/setup.png' className='ihawk-img' alt=''/>
-                        <img src='/images/WorkImages/ihawk/umpire.png' className='ihawk-img' alt=''/>
-                        <img src='/images/WorkImages/ihawk/tracking.png' className='ihawk-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/ihawk/setup.png' className='ihawk-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/ihawk/umpire.png' className='ihawk-img' alt=''/>
+                        <img src='/personal-website/images/WorkImages/ihawk/tracking.png' className='ihawk-img' alt=''/>
                       </div>
                     </div>
                     
