@@ -7,13 +7,13 @@ import Header from './Header';
 import Footer from './Footer';
 function App() {
   return (
-    <Router>
+    <Router basename='/personal-website'>
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/personal-website' element={<Homepage />}></Route>
-          <Route path='/personal-website/projects' element={<ProjectsPage />}></Route>
-          <Route path='/personal-website/hobbies' element={<HobbiesPage />}></Route>
+          <Route exact path='/' component={Homepage}></Route>
+          <Route exact path='/projects' component={ProjectsPage}></Route>
+          <Route exact path='/hobbies' component={HobbiesPage}></Route>
         </Routes>
         <Footer />
       </div>
