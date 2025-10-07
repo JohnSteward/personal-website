@@ -10,7 +10,7 @@ function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
   const Reveal = () => {
     setOpen(!isOpen);
     if (isOpen){
-      setHeight("400px");
+      setHeight("450px");
     }else{
       setHeight("0px");
     }
