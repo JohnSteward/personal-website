@@ -65,9 +65,9 @@ function HobbiesPage() {
             MakerWorld profile that shows the models I have made on Blender, and allows you to download the model file
             to print yourself.
         </p>
-        <Link className='makerworld-link' to={{ pathname:"//makerworld.com/en/@JohnSteward165/upload" }} target="_blank">
+        <a className='makerworld-link' href='https://makerworld.com/en/@JohnSteward165/upload' target="_blank">
          MakerWorld
-        </Link>
+        </a>
         <h2 className='hobby-subtitle'>Blender Models</h2>
         <div className='models'>
           <div className='pic-row'>
