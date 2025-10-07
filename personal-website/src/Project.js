@@ -31,7 +31,7 @@ function Project({title, image, readme, github, githubLink, pdf, pdfLink}) {
           {isOpen ? 'Show Description' : 'Hide Description'}</button>
           
         {github && <button className='github'>
-          <Link className='link' to={{ pathname: githubLink }} target="_blank"> GitHub Page</Link>
+          <a className='link' href={githubLink} target="_blank"> GitHub Page</a>
         </button>}
         {pdf && <button className='view-report'>
           <a href={pdfLink} target='_blank' rel='noreferrer' className='report-link'>View Report</a>

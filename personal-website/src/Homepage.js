@@ -14,8 +14,8 @@ function Homepage() {
 
       <div className='important-links'>
         <h2 className='home-sub-title'>Important Links</h2>
-        <Link className='other-page-links' to={{ pathname: "//www.linkedin.com/in/john-steward-494487244/" }} target="_blank"> LinkedIn</Link>
-        <Link className='other-page-links' to={{pathname: "//github.com/JohnSteward"}} target='blank'>GitHub</Link>
+        <a className='other-page-links' href="https://www.linkedin.com/in/john-steward-494487244/" target="_blank"> LinkedIn</a>
+        <a className='other-page-links' href="https://github.com/JohnSteward?tab=repositories" target='blank'>GitHub</a>
         <br></br>
         <br></br>
         <a href="/personal-website/CV/John-Steward-CV.pdf" target='_blank' rel='noreferrer' className='other-page-links'>View CV</a>
@@ -26,7 +26,7 @@ function Homepage() {
         <div className='profile'>
             <h2 className='home-sub-title'>About Me</h2>
             <p className='home-description'>
-                I graduated from the University of Bath with a Masters in Computer Science with First Class Honours. 
+                My name is John Steward. I graduated from the University of Bath with a Masters in Computer Science with First Class Honours. 
                 During this time, I had the opportunity to gain a lot of experience in various fields, mainly 
                 Machine Learning and Web Development. I have a strong passion for making projects that will solve real-world 
                 problems and help people. As well as using my software skills to solve problems, I also enjoy building PCs, 
