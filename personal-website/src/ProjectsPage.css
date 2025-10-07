@@ -10,7 +10,7 @@
 .description{
     font-weight: 700;
     font-size: 18px;
-    color: #03071e;
+    color: #ffba08;
 }
 .hyperlinks{
     align-items: center;
@@ -30,7 +30,7 @@
 }
 .project-title{
     align-items: center;
-    color: #03071e;
+    color: #ffba08;
     font-size: 40px;
 }
 .project-container{

@@ -4,14 +4,15 @@
     align-items: center;
     justify-content: center;
     background-color: #6a040f;
+    /* background-image: linear-gradient(to bottom, #6a040f, #d00000); */
 }
 .home-title{
-    color: #03071e;
+    color: #ffba08;
     font-size: 40px;
 }
 .home-sub-title{
     font-size: 35px;
-    color: #03071e;
+    color: #ffba08;
 }
 .contact{
     font-family: Garamond, serif;
@@ -45,23 +46,23 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    color: #03071e;
+    color: #ffba08;
     font-weight: 700;
     font-size: 18px;
 }
 .work-title{
-    color: #03071e;
+    color: #ffba08;
     font-size: 30px;
 }
 .work-images{
     display: block;
 }
 .drs-title{
-    color: #03071e;
+    color: #ffba08;
     font-size: 25px;
 }
 .ihawk-title{
-    color: #03071e;
+    color: #ffba08;
     font-size: 25px;
 }
 .work-pics{
